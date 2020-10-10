@@ -26,7 +26,6 @@ local ButtonImage = Instance.new("ImageLabel")
 local DropShadow_2 = Instance.new("ImageLabel")
 local SapphireLogo = Instance.new("ImageLabel")
 local SapphireText = Instance.new("TextLabel")
-local HubText = Instance.new("TextLabel")
 local GameName = Instance.new("TextLabel")
 
 SapphireHub.Name = "SapphireHub"
@@ -118,20 +117,10 @@ SapphireText.BackgroundTransparency = 1.000
 SapphireText.Position = UDim2.new(0.0274305344, 0, 0.99444443, 0)
 SapphireText.Size = UDim2.new(0, 48, 0, 30)
 SapphireText.Font = Enum.Font.Gotham
-SapphireText.Text = "Sapphire"
+SapphireText.Text = "Sapphire Hub"
 SapphireText.TextColor3 = Color3.fromRGB(255, 255, 255)
 SapphireText.TextSize = 20.000
 
-HubText.Name = "HubText"
-HubText.Parent = SapphireLogo
-HubText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-HubText.BackgroundTransparency = 1.000
-HubText.Position = UDim2.new(0.560763836, 0, 0.99444443, 0)
-HubText.Size = UDim2.new(0, 36, 0, 30)
-HubText.Font = Enum.Font.Gotham
-HubText.Text = "Hub"
-HubText.TextColor3 = Color3.fromRGB(37, 212, 94)
-HubText.TextSize = 20.000
 
 GameName.Name = "GameName"
 GameName.Parent = MainFrame

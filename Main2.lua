@@ -108,7 +108,7 @@ SapphireLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SapphireLogo.BackgroundTransparency = 1.000
 SapphireLogo.Position = UDim2.new(0.359375, 0, 0.0249999985, 0)
 SapphireLogo.Size = UDim2.new(0, 90, 0, 90)
-SapphireLogo.Image = "rbxassetid://5813468328"
+SapphireLogo.Image = "rbxassetid://5813599653"
 
 SapphireText.Name = "SapphireText"
 SapphireText.Parent = SapphireLogo
@@ -118,7 +118,7 @@ SapphireText.Position = UDim2.new(0.2295307655, 0, 0.99444443, 0)
 SapphireText.Size = UDim2.new(0, 48, 0, 30)
 SapphireText.Font = Enum.Font.Gotham
 SapphireText.Text = "Sapphire Hub"
-SapphireText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SapphireText.TextColor3 = Color3.fromRGB(37, 187, 213)
 SapphireText.TextSize = 20.000
 
 

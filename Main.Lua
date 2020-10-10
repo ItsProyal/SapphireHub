@@ -1,5 +1,3 @@
-
-
 local HttpService = game:GetService('HttpService')
 local Supported = false
 local Script = nil
@@ -20,23 +18,23 @@ if Game then
     Script = game:HttpGet('https://raw.githubusercontent.com/ItsProyal/SapphireHub/master/Scripts/' .. Game.ScriptName)
 end
 
-local DuckHub = Instance.new("ScreenGui")
+local SapphireHub = Instance.new("ScreenGui")
 local MainFrame = Instance.new("ImageLabel")
 local DropShadow = Instance.new("ImageLabel")
 local LoadScript = Instance.new("TextButton")
 local ButtonImage = Instance.new("ImageLabel")
 local DropShadow_2 = Instance.new("ImageLabel")
-local DuckLogo = Instance.new("ImageLabel")
-local DuckText = Instance.new("TextLabel")
+local SapphireLogo = Instance.new("ImageLabel")
+local SapphireText = Instance.new("TextLabel")
 local HubText = Instance.new("TextLabel")
 local GameName = Instance.new("TextLabel")
 
-DuckHub.Name = "DuckHub"
-DuckHub.Parent = game.CoreGui
-DuckHub.ResetOnSpawn = false
+SapphireHub.Name = "SapphireHub"
+SapphireHub.Parent = game.CoreGui
+SapphireHub.ResetOnSpawn = false
 
 MainFrame.Name = "MainFrame"
-MainFrame.Parent = DuckHub
+MainFrame.Parent = SapphireHub
 MainFrame.AnchorPoint = Vector2.new(0.5, 0.5)
 MainFrame.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 MainFrame.BackgroundTransparency = 1.000
@@ -105,27 +103,27 @@ DropShadow_2.ImageTransparency = 0.700
 DropShadow_2.ScaleType = Enum.ScaleType.Slice
 DropShadow_2.SliceCenter = Rect.new(10, 10, 118, 118)
 
-DuckLogo.Name = "DuckLogo"
-DuckLogo.Parent = MainFrame
-DuckLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DuckLogo.BackgroundTransparency = 1.000
-DuckLogo.Position = UDim2.new(0.359375, 0, 0.0249999985, 0)
-DuckLogo.Size = UDim2.new(0, 90, 0, 90)
-DuckLogo.Image = "rbxassetid://5552873993"
+SapphireLogo.Name = "SapphireLogo"
+SapphireLogo.Parent = MainFrame
+SapphireLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SapphireLogo.BackgroundTransparency = 1.000
+SapphireLogo.Position = UDim2.new(0.359375, 0, 0.0249999985, 0)
+SapphireLogo.Size = UDim2.new(0, 90, 0, 90)
+SapphireLogo.Image = "rbxassetid://5552873993"
 
-DuckText.Name = "DuckText"
-DuckText.Parent = DuckLogo
-DuckText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
-DuckText.BackgroundTransparency = 1.000
-DuckText.Position = UDim2.new(0.0274305344, 0, 0.99444443, 0)
-DuckText.Size = UDim2.new(0, 48, 0, 30)
-DuckText.Font = Enum.Font.Gotham
-DuckText.Text = "Duck"
-DuckText.TextColor3 = Color3.fromRGB(255, 255, 255)
-DuckText.TextSize = 20.000
+SapphireText.Name = "SapphireText"
+SapphireText.Parent = SapphireLogo
+SapphireText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+SapphireText.BackgroundTransparency = 1.000
+SapphireText.Position = UDim2.new(0.0274305344, 0, 0.99444443, 0)
+SapphireText.Size = UDim2.new(0, 48, 0, 30)
+SapphireText.Font = Enum.Font.Gotham
+SapphireText.Text = "Sapphire"
+SapphireText.TextColor3 = Color3.fromRGB(255, 255, 255)
+SapphireText.TextSize = 20.000
 
 HubText.Name = "HubText"
-HubText.Parent = DuckLogo
+HubText.Parent = SapphireLogo
 HubText.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 HubText.BackgroundTransparency = 1.000
 HubText.Position = UDim2.new(0.560763836, 0, 0.99444443, 0)
@@ -166,7 +164,7 @@ else
     LoadScript.MouseButton1Down:Connect(function()
         MainFrame:TweenPosition(UDim2.new(0.5,0,-1.2,0), Enum.EasingDirection.Out, Enum.EasingStyle.Bounce, 1, false)
         wait(1)
-        DuckHub:Destroy()
+        SapphireHub:Destroy()
     end)
     return
 end
@@ -175,5 +173,5 @@ LoadScript.MouseButton1Down:Connect(function()
     MainFrame:TweenPosition(UDim2.new(0.5,0,-1.2,0), Enum.EasingDirection.Out, Enum.EasingStyle.Bounce, 1, false)
     loadstring(Script)()
     wait(1)
-    DuckHub:Destroy()
+    SapphireHub:Destroy()
 end)

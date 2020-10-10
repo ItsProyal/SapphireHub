@@ -1,34 +1,34 @@
 {
-    "286090429": {
-        "ScriptName": "Arsenal.lua",
-        "GameName": "Arsenal"
-    },
-    "606849621": {
-        "ScriptName": "Jailbreak.lua",
-        "GameName": "Jailbreak"
-    },
-    "13822889": {
-        "ScriptName": "LT2.lua",
-        "GameName": "Lumber Tycoon 2",
-    },
-    "301549746": {
-        "ScriptName": "CounterBlox.lua",
-        "GameName": "Counter Blox"
-    },
-    "4616652839": {
-        "ScriptName": "SL2.lua",
-        "GameName": "Shinobi Life 2"
-    },
-    "292439477": {
-        "ScriptName": "PF.lua",
-        "GameName": "Phantom Forces"
-    },
-    "2727067538": {
-        "ScriptName": "WorldZero.lua",
-        "GameName": "World Zero"
-    },
-    "3527629287": {
-        "ScriptName": "BigPaintball.lua",
-        "GameName": "Big Paintball"
-    }
+	"286090429": {
+		"ScriptName": "Arsenal.lua",
+		"GameName": "Arsenal"
+	},
+	"606849621": {
+		"ScriptName": "Jailbreak.lua",
+		"GameName": "Jailbreak"
+	},
+	"13822889": {
+		"ScriptName": "LT2.lua",
+		"GameName": "Lumber Tycoon 2"
+	},
+	"301549746": {
+		"ScriptName": "CounterBlox.lua",
+		"GameName": "Counter Blox"
+	},
+	"4616652839": {
+		"ScriptName": "SL2.lua",
+		"GameName": "Shinobi Life 2"
+	},
+	"292439477": {
+		"ScriptName": "PF.lua",
+		"GameName": "Phantom Forces"
+	},
+	"2727067538": {
+		"ScriptName": "WorldZero.lua",
+		"GameName": "World Zero"
+	},
+	"3527629287": {
+		"ScriptName": "BigPaintball.lua",
+		"GameName": "Big Paintball"
+	}
 }

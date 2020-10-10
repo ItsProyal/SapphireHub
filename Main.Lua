@@ -109,7 +109,7 @@ SapphireLogo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 SapphireLogo.BackgroundTransparency = 1.000
 SapphireLogo.Position = UDim2.new(0.359375, 0, 0.0249999985, 0)
 SapphireLogo.Size = UDim2.new(0, 90, 0, 90)
-SapphireLogo.Image = "rbxassetid://5552873993"
+SapphireLogo.Image = "rbxassetid://5813468328"
 
 SapphireText.Name = "SapphireText"
 SapphireText.Parent = SapphireLogo

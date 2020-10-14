@@ -90,5 +90,3 @@ function Notify(Title, Message)
         end
     end
 end
-
-Notify("Title", "Text")

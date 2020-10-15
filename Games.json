@@ -39,6 +39,10 @@
 		"ScriptName": "NinjaLegends.lua",
 		"GameName": "Ninja Legends"
 	},
+	"662417684": {
+		"ScriptName": "LuckyBlocks.lua",
+		"GameName": "Lucky Blocks"
+	},
 	"4292776423": {
 		"ScriptName": "UnitClassified.lua",
 		"GameName": "Unit Classified"

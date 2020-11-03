@@ -1,0 +1,50 @@
+{
+	"286090429": {
+		"ScriptName": "Arsenal.lua",
+		"GameName": "Arsenal"
+	},
+	"606849621": {
+		"ScriptName": "Jailbreak.lua",
+		"GameName": "Jailbreak"
+	},
+	"13822889": {
+		"ScriptName": "LT2.lua",
+		"GameName": "Lumber Tycoon"
+	},
+	"301549746": {
+		"ScriptName": "CounterBlox.lua",
+		"GameName": "Counter Blox"
+	},
+	"4616652839": {
+		"ScriptName": "SL2.lua",
+		"GameName": "Shinobi Life"
+	},
+	"292439477": {
+		"ScriptName": "PF.lua",
+		"GameName": "Phantom Forces"
+	},
+	"2727067538": {
+		"ScriptName": "WorldZero.lua",
+		"GameName": "World Zero"
+	},
+	"3527629287": {
+		"ScriptName": "BigPaintball.lua",
+		"GameName": "Big Paintball"
+	},
+	"920587237": {
+		"ScriptName": "AdoptMe.lua",
+		"GameName": "Adopt Me"
+	},
+	"3956818381": {
+		"ScriptName": "NinjaLegends.lua",
+		"GameName": "Ninja Legends"
+	},
+	"662417684": {
+		"ScriptName": "LuckyBlocks.lua",
+		"GameName": "Lucky Blocks"
+	},
+	"4292776423": {
+		"ScriptName": "UnitClassified.lua",
+		"GameName": "Unit Classified"
+	}
+}

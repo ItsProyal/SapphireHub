@@ -1,9 +1,11 @@
 {
-	"News Testing": {
+	"1": {
+		"Title": "News Testing",
 		"Date": "11/3/2020",
 		"Description": "Added News to the script!"
 	},
-	"News V2": {
+	"2": {
+		"Title": "Testing V2",
 		"Date": "at sometime tbh",
 		"Description": "just a test thanks dad"
 	}

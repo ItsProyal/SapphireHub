@@ -7,7 +7,7 @@ local allSkins = {
 }
 
 for i, v in pairs(NewsTable)do
-    Title = v
+    Title = i
     for a, b in pairs(v)do
         if a == "Date" then
             Date = b
@@ -15,7 +15,7 @@ for i, v in pairs(NewsTable)do
             Desc = b
         end
     end
-addNews(Title, Date, Desc)
+    addNews(Title, Date, Desc)
 end
 
 

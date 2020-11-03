@@ -12,7 +12,7 @@ local HttpService = game:GetService('HttpService')
 local Supported = false
 local Script = nil
 
-local GameList = game:HttpGet('https://raw.githubusercontent.com/ItsProyal/SapphireHub/main/Games.json')
+local GameList = game:HttpGet('https://github.com/ItsProyal/SapphireHub/blob/main/JSON/Games.json')
 function GetGame()
     local GameTable = HttpService:JSONDecode(GameList)
     if GameTable[tostring(game.PlaceId)] then 

@@ -1,12 +1,12 @@
 {
 	"1": {
-		"Title": "News Testing",
+		"Title": "Created News",
 		"Date": "11/3/2020",
-		"Description": "Added News to the script!"
+		"Description": "Officialy added News to the UI."
 	},
 	"2": {
-		"Title": "Testing V2",
-		"Date": "at sometime tbh",
-		"Description": "just a test thanks dad"
+		"Title": "Github Organization",
+		"Date": "11/3/2020",
+		"Description": "Organized files on Github."
 	}
 }
